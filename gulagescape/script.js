@@ -157,5 +157,7 @@ function nextImg(el){
 }
 
 function nextPage(){
-	window.location.href = 'https://marianoma.github.io/FinalPhase/wireframe_a/index.html';
+	if(clue2.src.match("key.png")) {
+		window.location.href = 'https://marianoma.github.io/FinalPhase/wireframe_a/index.html';
+	} else {}
 }
